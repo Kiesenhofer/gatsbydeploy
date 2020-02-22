@@ -38,4 +38,7 @@
             this.PbColorBox = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.TbColorOpacity = new System.Windows.Forms.TextBox();
-            this.Btn
+            this.BtnSelectBgColor = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.TbSpacing = new System.Windows.Forms.TextBox();
+            this.TbMargin = ne
