@@ -34,4 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.TbHeight = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.CbSaveUnextrudedCopies = new System.Windows.Forms.Che
+            this.CbSaveUnextrudedCopies = new System.Windows.Forms.CheckBox();
+            this.PbColorBox = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.TbColorOpacity = new System.Windows.Forms.TextBox();
+            this.Btn
