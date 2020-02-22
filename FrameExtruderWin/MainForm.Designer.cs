@@ -41,4 +41,7 @@
             this.BtnSelectBgColor = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.TbSpacing = new System.Windows.Forms.TextBox();
-            this.TbMargin = ne
+            this.TbMargin = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.BtnSelectManually = new Sy
