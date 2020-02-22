@@ -32,4 +32,6 @@
             this.TbWidth = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-       
+            this.TbHeight = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.CbSaveUnextrudedCopies = new System.Windows.Forms.Che
