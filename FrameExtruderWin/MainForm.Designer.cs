@@ -44,4 +44,8 @@
             this.TbMargin = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.BtnSelectManually = new Sy
+            this.BtnSelectManually = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.PbDrag = new System.Windows.Forms.PictureBox();
+            this.groupBox1.SuspendLayout();
+   
