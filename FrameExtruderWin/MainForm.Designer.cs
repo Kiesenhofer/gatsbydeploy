@@ -56,4 +56,10 @@
             // 
             this.TbWidth.Location = new System.Drawing.Point(81, 24);
             this.TbWidth.Name = "TbWidth";
-            this.TbWidth.Size = new System.Drawing
+            this.TbWidth.Size = new System.Drawing.Size(44, 20);
+            this.TbWidth.TabIndex = 0;
+            this.TbWidth.Text = "16";
+            this.TbWidth.TextChanged += new System.EventHandler(this.TbWidth_TextChanged);
+            // 
+            // label1
+  
