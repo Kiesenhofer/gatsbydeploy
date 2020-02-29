@@ -48,4 +48,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.PbDrag = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-   
+            ((System.ComponentModel.ISupportInitialize)(this.PbColorBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbDrag)).BeginInit();
+            this.SuspendLayout();
+         
