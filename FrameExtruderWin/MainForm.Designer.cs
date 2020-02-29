@@ -51,4 +51,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.PbColorBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbDrag)).BeginInit();
             this.SuspendLayout();
-         
+            // 
+            // TbWidth
+            // 
+            this.TbWidth.Location = new System.Drawing.Point(81, 24);
+            this.TbWidth.Name = "TbWidth";
+            this.TbWidth.Size = new System.Drawing
