@@ -62,4 +62,8 @@
             this.TbWidth.TextChanged += new System.EventHandler(this.TbWidth_TextChanged);
             // 
             // label1
-  
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 56);
+            this.label1.Name = "label1";
+            this.label1.Size = new Sys
