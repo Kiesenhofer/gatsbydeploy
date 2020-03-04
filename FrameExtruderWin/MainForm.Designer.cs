@@ -77,4 +77,10 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Fr
+            this.label2.Text = "Frame Width:";
+            // 
+            // TbHeight
+            // 
+            this.TbHeight.Location = new System.Drawing.Point(81, 53);
+            this.TbHeight.Name = "TbHeight";
+           
