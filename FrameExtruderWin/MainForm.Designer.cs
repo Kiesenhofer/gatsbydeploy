@@ -92,4 +92,7 @@
             // 
             this.groupBox1.Controls.Add(this.CbSaveUnextrudedCopies);
             this.groupBox1.Controls.Add(this.PbColorBox);
-            this.groupBox1.Co
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.TbColorOpacity);
+            this.groupBox1.Controls.Add(this.BtnSelectBgColor);
+            this.groupBox1.Controls.A
