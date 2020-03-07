@@ -86,4 +86,10 @@
             this.TbHeight.Size = new System.Drawing.Size(44, 20);
             this.TbHeight.TabIndex = 4;
             this.TbHeight.Text = "16";
-            this.TbHeight.TextChanged += new System.EventHandler(this.TbHeigh
+            this.TbHeight.TextChanged += new System.EventHandler(this.TbHeight_TextChanged);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.CbSaveUnextrudedCopies);
+            this.groupBox1.Controls.Add(this.PbColorBox);
+            this.groupBox1.Co
