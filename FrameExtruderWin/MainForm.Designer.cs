@@ -83,4 +83,7 @@
             // 
             this.TbHeight.Location = new System.Drawing.Point(81, 53);
             this.TbHeight.Name = "TbHeight";
-           
+            this.TbHeight.Size = new System.Drawing.Size(44, 20);
+            this.TbHeight.TabIndex = 4;
+            this.TbHeight.Text = "16";
+            this.TbHeight.TextChanged += new System.EventHandler(this.TbHeigh
