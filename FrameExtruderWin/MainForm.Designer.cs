@@ -99,4 +99,7 @@
             this.groupBox1.Controls.Add(this.TbSpacing);
             this.groupBox1.Controls.Add(this.TbMargin);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Contr
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.TbHeight);
+            this.groupBox1.Controls.Add(this.TbWidt
