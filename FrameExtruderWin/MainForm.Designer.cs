@@ -95,4 +95,8 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.TbColorOpacity);
             this.groupBox1.Controls.Add(this.BtnSelectBgColor);
-            this.groupBox1.Controls.A
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.TbSpacing);
+            this.groupBox1.Controls.Add(this.TbMargin);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Contr
