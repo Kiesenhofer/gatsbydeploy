@@ -121,4 +121,7 @@
             this.CbSaveUnextrudedCopies.Size = new System.Drawing.Size(161, 17);
             this.CbSaveUnextrudedCopies.TabIndex = 15;
             this.CbSaveUnextrudedCopies.Text = "Save Copy Of Original Sheet";
-            this.Cb
+            this.CbSaveUnextrudedCopies.UseVisualStyleBackColor = true;
+            this.CbSaveUnextrudedCopies.CheckedChanged += new System.EventHandler(this.CbSaveUnextrudedCopies_CheckedChanged);
+            // 
+            // Pb
