@@ -111,4 +111,8 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Extrusion Options";
             // 
-            // CbSav
+            // CbSaveUnextrudedCopies
+            // 
+            this.CbSaveUnextrudedCopies.AutoSize = true;
+            this.CbSaveUnextrudedCopies.Checked = true;
+            this.CbSaveUnextrudedCopies.CheckState = System
