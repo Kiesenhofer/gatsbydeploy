@@ -118,4 +118,7 @@
             this.CbSaveUnextrudedCopies.CheckState = System.Windows.Forms.CheckState.Checked;
             this.CbSaveUnextrudedCopies.Location = new System.Drawing.Point(76, 156);
             this.CbSaveUnextrudedCopies.Name = "CbSaveUnextrudedCopies";
-            this.CbSaveUnextrudedC
+            this.CbSaveUnextrudedCopies.Size = new System.Drawing.Size(161, 17);
+            this.CbSaveUnextrudedCopies.TabIndex = 15;
+            this.CbSaveUnextrudedCopies.Text = "Save Copy Of Original Sheet";
+            this.Cb
