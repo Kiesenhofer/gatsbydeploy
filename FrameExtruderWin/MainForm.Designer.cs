@@ -124,4 +124,8 @@
             this.CbSaveUnextrudedCopies.UseVisualStyleBackColor = true;
             this.CbSaveUnextrudedCopies.CheckedChanged += new System.EventHandler(this.CbSaveUnextrudedCopies_CheckedChanged);
             // 
-            // Pb
+            // PbColorBox
+            // 
+            this.PbColorBox.BackColor = System.Drawing.Color.White;
+            this.PbColorBox.BackgroundImage = global::FrameExtruderWin.Properties.Resources.back;
+         
