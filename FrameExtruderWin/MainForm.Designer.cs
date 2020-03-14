@@ -115,4 +115,7 @@
             // 
             this.CbSaveUnextrudedCopies.AutoSize = true;
             this.CbSaveUnextrudedCopies.Checked = true;
-            this.CbSaveUnextrudedCopies.CheckState = System
+            this.CbSaveUnextrudedCopies.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.CbSaveUnextrudedCopies.Location = new System.Drawing.Point(76, 156);
+            this.CbSaveUnextrudedCopies.Name = "CbSaveUnextrudedCopies";
+            this.CbSaveUnextrudedC
