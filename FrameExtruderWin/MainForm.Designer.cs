@@ -131,4 +131,10 @@
             this.PbColorBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbColorBox.Location = new System.Drawing.Point(75, 93);
             this.PbColorBox.Name = "PbColorBox";
-         
+            this.PbColorBox.Size = new System.Drawing.Size(50, 50);
+            this.PbColorBox.TabIndex = 14;
+            this.PbColorBox.TabStop = false;
+            // 
+            // label7
+            // 
+  
