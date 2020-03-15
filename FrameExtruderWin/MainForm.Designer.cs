@@ -128,4 +128,7 @@
             // 
             this.PbColorBox.BackColor = System.Drawing.Color.White;
             this.PbColorBox.BackgroundImage = global::FrameExtruderWin.Properties.Resources.back;
+            this.PbColorBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbColorBox.Location = new System.Drawing.Point(75, 93);
+            this.PbColorBox.Name = "PbColorBox";
          
