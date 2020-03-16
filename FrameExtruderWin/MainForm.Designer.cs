@@ -137,4 +137,7 @@
             // 
             // label7
             // 
-  
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(134, 126);
+            this.label7.Name = "label7";
+            this.label7.Size = ne
