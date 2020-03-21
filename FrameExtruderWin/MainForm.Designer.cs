@@ -146,4 +146,8 @@
             // 
             // TbColorOpacity
             // 
-            this.TbColorOpacity.Location = n
+            this.TbColorOpacity.Location = new System.Drawing.Point(185, 123);
+            this.TbColorOpacity.Name = "TbColorOpacity";
+            this.TbColorOpacity.Size = new System.Drawing.Size(44, 20);
+            this.TbColorOpacity.TabIndex = 12;
+          
