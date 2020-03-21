@@ -140,4 +140,10 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(134, 126);
             this.label7.Name = "label7";
-            this.label7.Size = ne
+            this.label7.Size = new System.Drawing.Size(46, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Opacity:";
+            // 
+            // TbColorOpacity
+            // 
+            this.TbColorOpacity.Location = n
