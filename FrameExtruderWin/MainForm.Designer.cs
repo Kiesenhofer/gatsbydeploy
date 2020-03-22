@@ -161,4 +161,9 @@
             this.BtnSelectBgColor.TabIndex = 11;
             this.BtnSelectBgColor.Text = "Select Color";
             this.BtnSelectBgColor.UseVisualStyleBackColor = true;
-            this.BtnSelectBgColor.
+            this.BtnSelectBgColor.Click += new System.EventHandler(this.BtnSelectBgColor_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new Sys
