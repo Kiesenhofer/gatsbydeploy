@@ -150,4 +150,9 @@
             this.TbColorOpacity.Name = "TbColorOpacity";
             this.TbColorOpacity.Size = new System.Drawing.Size(44, 20);
             this.TbColorOpacity.TabIndex = 12;
-          
+            this.TbColorOpacity.Text = "0";
+            this.TbColorOpacity.TextChanged += new System.EventHandler(this.TbColorOpacity_TextChanged);
+            // 
+            // BtnSelectBgColor
+            // 
+  
