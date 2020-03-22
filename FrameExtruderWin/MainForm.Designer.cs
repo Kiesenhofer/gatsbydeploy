@@ -155,4 +155,6 @@
             // 
             // BtnSelectBgColor
             // 
-  
+            this.BtnSelectBgColor.Location = new System.Drawing.Point(131, 94);
+            this.BtnSelectBgColor.Name = "BtnSelectBgColor";
+            this.BtnSelectBgColor.Size = new System.Drawing.Siz
