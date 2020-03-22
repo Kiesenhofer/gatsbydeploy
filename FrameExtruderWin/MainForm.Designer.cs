@@ -157,4 +157,8 @@
             // 
             this.BtnSelectBgColor.Location = new System.Drawing.Point(131, 94);
             this.BtnSelectBgColor.Name = "BtnSelectBgColor";
-            this.BtnSelectBgColor.Size = new System.Drawing.Siz
+            this.BtnSelectBgColor.Size = new System.Drawing.Size(98, 23);
+            this.BtnSelectBgColor.TabIndex = 11;
+            this.BtnSelectBgColor.Text = "Select Color";
+            this.BtnSelectBgColor.UseVisualStyleBackColor = true;
+            this.BtnSelectBgColor.
