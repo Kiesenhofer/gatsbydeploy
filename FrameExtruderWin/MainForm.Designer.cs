@@ -166,4 +166,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new Sys
+            this.label6.Location = new System.Drawing.Point(6, 111);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 13);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Back Color:";
+   
