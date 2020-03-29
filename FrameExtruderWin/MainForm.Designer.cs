@@ -176,4 +176,9 @@
             // 
             this.TbSpacing.Location = new System.Drawing.Point(185, 53);
             this.TbSpacing.Name = "TbSpacing";
-            this.TbSpacing.Size = new Syst
+            this.TbSpacing.Size = new System.Drawing.Size(44, 20);
+            this.TbSpacing.TabIndex = 8;
+            this.TbSpacing.Text = "0";
+            this.TbSpacing.TextChanged += new System.EventHandler(this.TbSpacing_TextChanged);
+            // 
+            // TbMarg
