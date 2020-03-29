@@ -171,4 +171,9 @@
             this.label6.Size = new System.Drawing.Size(62, 13);
             this.label6.TabIndex = 9;
             this.label6.Text = "Back Color:";
-   
+            // 
+            // TbSpacing
+            // 
+            this.TbSpacing.Location = new System.Drawing.Point(185, 53);
+            this.TbSpacing.Name = "TbSpacing";
+            this.TbSpacing.Size = new Syst
