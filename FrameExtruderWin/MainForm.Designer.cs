@@ -181,4 +181,9 @@
             this.TbSpacing.Text = "0";
             this.TbSpacing.TextChanged += new System.EventHandler(this.TbSpacing_TextChanged);
             // 
-            // TbMarg
+            // TbMargin
+            // 
+            this.TbMargin.Location = new System.Drawing.Point(185, 24);
+            this.TbMargin.Name = "TbMargin";
+            this.TbMargin.Size = new System.Drawing.Size(44, 20);
+            
