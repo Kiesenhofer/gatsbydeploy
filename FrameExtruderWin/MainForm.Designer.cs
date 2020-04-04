@@ -186,4 +186,9 @@
             this.TbMargin.Location = new System.Drawing.Point(185, 24);
             this.TbMargin.Name = "TbMargin";
             this.TbMargin.Size = new System.Drawing.Size(44, 20);
-            
+            this.TbMargin.TabIndex = 7;
+            this.TbMargin.Text = "0";
+            this.TbMargin.TextChanged += new System.EventHandler(this.TbMargin_TextChanged);
+            // 
+            // label5
+            //
