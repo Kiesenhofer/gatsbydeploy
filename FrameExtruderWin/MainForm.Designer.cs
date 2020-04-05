@@ -206,4 +206,9 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Mar
+            this.label4.Text = "Margin:";
+            // 
+            // BtnSelectManually
+            // 
+            this.BtnSelectManually.Location = new System.Drawing.Point(92, 483);
+            this.BtnSelectManually.N
