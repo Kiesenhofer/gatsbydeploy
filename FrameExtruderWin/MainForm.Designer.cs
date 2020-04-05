@@ -211,4 +211,8 @@
             // BtnSelectManually
             // 
             this.BtnSelectManually.Location = new System.Drawing.Point(92, 483);
-            this.BtnSelectManually.N
+            this.BtnSelectManually.Name = "BtnSelectManually";
+            this.BtnSelectManually.Size = new System.Drawing.Size(101, 23);
+            this.BtnSelectManually.TabIndex = 7;
+            this.BtnSelectManually.Text = "Select Manually";
+   
