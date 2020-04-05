@@ -215,4 +215,8 @@
             this.BtnSelectManually.Size = new System.Drawing.Size(101, 23);
             this.BtnSelectManually.TabIndex = 7;
             this.BtnSelectManually.Text = "Select Manually";
-   
+            this.BtnSelectManually.UseVisualStyleBackColor = true;
+            this.BtnSelectManually.Click += new System.EventHandler(this.BtnSelectManually_Click);
+            // 
+            // label3
+     
