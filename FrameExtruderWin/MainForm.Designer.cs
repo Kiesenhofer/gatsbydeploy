@@ -229,4 +229,8 @@
             this.label3.Text = "or";
             // 
             // PbDrag
-            /
+            // 
+            this.PbDrag.Image = global::FrameExtruderWin.Properties.Resources.drag;
+            this.PbDrag.Location = new System.Drawing.Point(15, 205);
+            this.PbDrag.Name = "PbDrag";
+            this.PbDrag.Size
