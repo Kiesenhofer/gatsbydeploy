@@ -236,4 +236,10 @@
             this.PbDrag.Size = new System.Drawing.Size(256, 256);
             this.PbDrag.TabIndex = 6;
             this.PbDrag.TabStop = false;
-            this.PbDrag.DragDrop += new System.Windows.Forms.DragEventHandler(this.PbDr
+            this.PbDrag.DragDrop += new System.Windows.Forms.DragEventHandler(this.PbDrag_DragDrop);
+            this.PbDrag.DragEnter += new System.Windows.Forms.DragEventHandler(this.PbDrag_DragEnter);
+            // 
+            // MainForm
+            // 
+            this.AllowDrop = true;
+            thi
