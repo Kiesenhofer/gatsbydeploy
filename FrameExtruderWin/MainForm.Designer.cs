@@ -233,4 +233,7 @@
             this.PbDrag.Image = global::FrameExtruderWin.Properties.Resources.drag;
             this.PbDrag.Location = new System.Drawing.Point(15, 205);
             this.PbDrag.Name = "PbDrag";
-            this.PbDrag.Size
+            this.PbDrag.Size = new System.Drawing.Size(256, 256);
+            this.PbDrag.TabIndex = 6;
+            this.PbDrag.TabStop = false;
+            this.PbDrag.DragDrop += new System.Windows.Forms.DragEventHandler(this.PbDr
