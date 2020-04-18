@@ -260,4 +260,13 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbColorBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbDrag)).EndInit();
-            this.ResumeLayou
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox TbWidth;
+        private System.Windows.Forms.Label label1;
+        private System.
