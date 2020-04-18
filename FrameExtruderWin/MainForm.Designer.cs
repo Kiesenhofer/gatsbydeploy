@@ -269,4 +269,7 @@
 
         private System.Windows.Forms.TextBox TbWidth;
         private System.Windows.Forms.Label label1;
-        private System.
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox TbHeight;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Pict
