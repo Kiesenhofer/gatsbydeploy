@@ -258,4 +258,6 @@
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System
+            ((System.ComponentModel.ISupportInitialize)(this.PbColorBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbDrag)).EndInit();
+            this.ResumeLayou
