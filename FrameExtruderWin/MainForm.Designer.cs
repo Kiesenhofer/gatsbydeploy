@@ -272,4 +272,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TbHeight;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Pict
+        private System.Windows.Forms.PictureBox PbDrag;
+        private System.Windows.Forms.Button BtnSelectManually;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox TbSpacing;
+        private System.Windows.Forms
