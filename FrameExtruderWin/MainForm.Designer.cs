@@ -254,4 +254,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
-            this.Text =
+            this.Text = "Frame Extruder";
+            this.Shown += new System.EventHandler(this.MainForm_Shown);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System
