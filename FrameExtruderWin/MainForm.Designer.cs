@@ -276,4 +276,8 @@
         private System.Windows.Forms.Button BtnSelectManually;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TbSpacing;
-        private System.Windows.Forms
+        private System.Windows.Forms.TextBox TbMargin;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System
