@@ -284,4 +284,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox TbColorOpacity;
         private System.Windows.Forms.PictureBox PbColorBox;
-       
+        private System.Windows.Forms.CheckBox CbSaveUnextrudedCopies;
+    }
+}
