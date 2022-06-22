@@ -9,4 +9,9 @@ namespace FrameExtruderWin {
 
         [STAThread]
         static void Main(string[] args) {
-            Application.Enabl
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
+        }
+
+        public static bool ExtrudeSheets(Bitmap[] sheets, string[] dests, int
