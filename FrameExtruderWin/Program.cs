@@ -14,4 +14,6 @@ namespace FrameExtruderWin {
             Application.Run(new MainForm());
         }
 
-        public static bool ExtrudeSheets(Bitmap[] sheets, string[] dests, int
+        public static bool ExtrudeSheets(Bitmap[] sheets, string[] dests, int width, int height, int margin, int spacing, Color background, bool saveUnextrudedCopies, BackgroundWorker worker) {
+            float progress = 0; // progress percentage;
+ 
