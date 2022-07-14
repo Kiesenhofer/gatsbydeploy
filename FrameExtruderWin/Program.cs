@@ -16,4 +16,6 @@ namespace FrameExtruderWin {
 
         public static bool ExtrudeSheets(Bitmap[] sheets, string[] dests, int width, int height, int margin, int spacing, Color background, bool saveUnextrudedCopies, BackgroundWorker worker) {
             float progress = 0; // progress percentage;
- 
+            float sheetOpPercentage = 100f / sheets.Length; // percentage of operation that completed once this sheet is extruded
+            for (var i = 0; i < sheets.Length; i++) {
+      
