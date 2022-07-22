@@ -18,4 +18,7 @@ namespace FrameExtruderWin {
             float progress = 0; // progress percentage;
             float sheetOpPercentage = 100f / sheets.Length; // percentage of operation that completed once this sheet is extruded
             for (var i = 0; i < sheets.Length; i++) {
-      
+                Bitmap shin = sheets[i]; // sheet input
+                if ((shin.Width - 2 * margin + spacing) % (width + spacing) != 0) {
+                    shin.Dispose();
+                    throw new Arg
