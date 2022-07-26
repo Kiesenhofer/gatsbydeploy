@@ -21,4 +21,6 @@ namespace FrameExtruderWin {
                 Bitmap shin = sheets[i]; // sheet input
                 if ((shin.Width - 2 * margin + spacing) % (width + spacing) != 0) {
                     shin.Dispose();
-                    throw new Arg
+                    throw new ArgumentException("Non-integer number of frame columns, double check margin, spacing, frame dimensions and sheet dimensions.");
+                }
+                if ((shin.Height - 2 * mar
