@@ -25,4 +25,8 @@ namespace FrameExtruderWin {
                 }
                 if ((shin.Height - 2 * margin + spacing) % (height + spacing) != 0) {
                     shin.Dispose();
-                    throw new ArgumentException("Non-integer number of frame rows, double check margin, spacing, frame dimensions and sheet dimension
+                    throw new ArgumentException("Non-integer number of frame rows, double check margin, spacing, frame dimensions and sheet dimensions.");
+                }
+                int frameColCount = (shin.Width - 2 * margin + spacing) / (width + spacing);
+                int frameRowCount = (shin.Height - 2 * margin + spacing) / (height + spacing);
+             
