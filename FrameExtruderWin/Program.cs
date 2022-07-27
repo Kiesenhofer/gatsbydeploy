@@ -31,4 +31,6 @@ namespace FrameExtruderWin {
                 int frameRowCount = (shin.Height - 2 * margin + spacing) / (height + spacing);
                 float frameOpPercentage = sheetOpPercentage / (frameColCount * frameRowCount); // percentage of operation completed once a single frame is extruded
 
-                int extWidth = 2 * margin + (frameColCount - 1) *
+                int extWidth = 2 * margin + (frameColCount - 1) * spacing + frameColCount * (width + 2); // extruded sheet width
+                int extHeight = 2 * margin + (frameRowCount - 1) * spacing + frameRowCount * (height + 2); // extruded sheet height
+                Bitmap shou = new Bitma
