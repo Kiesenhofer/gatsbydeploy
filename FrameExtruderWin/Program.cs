@@ -33,4 +33,7 @@ namespace FrameExtruderWin {
 
                 int extWidth = 2 * margin + (frameColCount - 1) * spacing + frameColCount * (width + 2); // extruded sheet width
                 int extHeight = 2 * margin + (frameRowCount - 1) * spacing + frameRowCount * (height + 2); // extruded sheet height
-                Bitmap shou = new Bitma
+                Bitmap shou = new Bitmap(extWidth, extHeight); // sheet output
+                Graphics extrudedSheet = Graphics.FromImage(shou);
+                extrudedSheet.FillRectangle(new SolidBrush(background), 0, 0, extWidth, extHeight);
+       
