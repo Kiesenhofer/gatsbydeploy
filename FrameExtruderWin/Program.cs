@@ -38,4 +38,7 @@ namespace FrameExtruderWin {
                 extrudedSheet.FillRectangle(new SolidBrush(background), 0, 0, extWidth, extHeight);
                 for (int row = 0; row < frameRowCount; row++) {
                     for (int col = 0; col < frameColCount; col++) {
-                        int srcX = margin + col * (width + spacing); // x of tile top lef
+                        int srcX = margin + col * (width + spacing); // x of tile top left
+                        int srcY = margin + row * (height + spacing); // y of tile top left
+                        int destX = margin + col * (width + spacing + 2); // x of the extruded tile top left
+             
