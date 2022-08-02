@@ -36,4 +36,6 @@ namespace FrameExtruderWin {
                 Bitmap shou = new Bitmap(extWidth, extHeight); // sheet output
                 Graphics extrudedSheet = Graphics.FromImage(shou);
                 extrudedSheet.FillRectangle(new SolidBrush(background), 0, 0, extWidth, extHeight);
-       
+                for (int row = 0; row < frameRowCount; row++) {
+                    for (int col = 0; col < frameColCount; col++) {
+                        int srcX = margin + col * (width + spacing); // x of tile top lef
