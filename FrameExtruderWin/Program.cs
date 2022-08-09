@@ -41,4 +41,7 @@ namespace FrameExtruderWin {
                         int srcX = margin + col * (width + spacing); // x of tile top left
                         int srcY = margin + row * (height + spacing); // y of tile top left
                         int destX = margin + col * (width + spacing + 2); // x of the extruded tile top left
-             
+                        int destY = margin + row * (height + spacing + 2); // y of the extruded tile top left
+
+                        // copy tile...
+                        extrudedSheet.DrawImage(shin, 
