@@ -44,4 +44,6 @@ namespace FrameExtruderWin {
                         int destY = margin + row * (height + spacing + 2); // y of the extruded tile top left
 
                         // copy tile...
-                        extrudedSheet.DrawImage(shin, 
+                        extrudedSheet.DrawImage(shin, new Rectangle(destX + 1, destY + 1, width, height), new Rectangle(srcX, srcY, width, height), GraphicsUnit.Pixel);
+                        // extrude upwards...
+                        extrudedSheet.DrawImage
