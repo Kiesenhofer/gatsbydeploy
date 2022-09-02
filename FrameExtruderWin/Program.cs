@@ -56,4 +56,5 @@ namespace FrameExtruderWin {
 
                         // corners TL, TR, BL, BR...
                         extrudedSheet.DrawImage(shin, new Rectangle(destX, destY, 1, 1), new Rectangle(srcX, srcY, 1, 1), GraphicsUnit.Pixel);
-                        e
+                        extrudedSheet.DrawImage(shin, new Rectangle(destX + width + 1, destY, 1, 1), new Rectangle(srcX + width - 1, srcY, 1, 1), GraphicsUnit.Pixel);
+                        extrudedSheet.DrawImage(shin, new Rec
