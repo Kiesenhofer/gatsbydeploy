@@ -60,4 +60,9 @@ namespace FrameExtruderWin {
                         extrudedSheet.DrawImage(shin, new Rectangle(destX, destY + height + 1, 1, 1), new Rectangle(srcX, srcY + height - 1, 1, 1), GraphicsUnit.Pixel);
                         extrudedSheet.DrawImage(shin, new Rectangle(destX + width + 1, destY + height + 1, 1, 1), new Rectangle(srcX + width - 1, srcY + height - 1, 1, 1), GraphicsUnit.Pixel);
                         progress += frameOpPercentage;
-                        worker.Rep
+                        worker.ReportProgress((int) progress);
+                        if(worker.CancellationPending) { // cancel operation
+                            return false;
+                        }
+                    }
+   
