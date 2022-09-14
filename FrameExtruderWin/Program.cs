@@ -65,4 +65,9 @@ namespace FrameExtruderWin {
                             return false;
                         }
                     }
-   
+                }
+                extrudedSheet.Dispose();
+                
+                // save unextruded copy...
+                if (saveUnextrudedCopies) {
+                    string f
