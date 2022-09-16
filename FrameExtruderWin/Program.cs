@@ -70,4 +70,6 @@ namespace FrameExtruderWin {
                 
                 // save unextruded copy...
                 if (saveUnextrudedCopies) {
-                    string f
+                    string filename = Path.GetFileNameWithoutExtension(dests[i]) + "_original";
+                    string dir = Path.GetDirectoryName(dests[i]);
+                    string ext = Path.GetExtension(dests[i]
