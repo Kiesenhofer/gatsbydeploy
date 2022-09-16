@@ -78,4 +78,10 @@ namespace FrameExtruderWin {
 
                 shin.Dispose();
                 // overwrite orginal file with extruded copy...
-                shou
+                shou.Save(dests[i]);
+            }
+            return true;
+        }
+
+    }
+}
