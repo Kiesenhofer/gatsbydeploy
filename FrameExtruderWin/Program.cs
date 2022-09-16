@@ -72,4 +72,10 @@ namespace FrameExtruderWin {
                 if (saveUnextrudedCopies) {
                     string filename = Path.GetFileNameWithoutExtension(dests[i]) + "_original";
                     string dir = Path.GetDirectoryName(dests[i]);
-                    string ext = Path.GetExtension(dests[i]
+                    string ext = Path.GetExtension(dests[i]);
+                    shin.Save(Path.Combine(dir, filename + ext));
+                }
+
+                shin.Dispose();
+                // overwrite orginal file with extruded copy...
+                shou
