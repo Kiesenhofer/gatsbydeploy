@@ -6,4 +6,7 @@ namespace FrameExtruderWin {
     public partial class ProgressForm : Form {
         public delegate bool DoWorkCallback(BackgroundWorker work);
 
-        public ProgressForm(string title, DoWorkCallback 
+        public ProgressForm(string title, DoWorkCallback work, Action<RunWorkerCompletedEventArgs> finish) {
+            InitializeComponent();
+            Text = title;
+            MainWorker.DoWork += (object sender, DoWorkEventArgs e) => { e.Cancel = !
