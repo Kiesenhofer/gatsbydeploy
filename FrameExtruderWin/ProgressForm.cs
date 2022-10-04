@@ -19,4 +19,7 @@ namespace FrameExtruderWin {
             LbProgress.Text = e.ProgressPercentage + "%";
         }
 
-        
+        private void ProgressForm_FormClosing(object sender, FormClosingEventArgs e) {
+            if(MainWorker.IsBusy) {
+                e.Cancel = true;
+                if (!MainWorker.CancellationPend
