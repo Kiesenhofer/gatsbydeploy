@@ -14,4 +14,9 @@ namespace FrameExtruderWin {
             MainWorker.RunWorkerAsync();
         }
 
-        pri
+        private void MainWorker_ProgressChanged(object sender, ProgressChangedEventArgs e) {
+            Bar.Value = e.ProgressPercentage;
+            LbProgress.Text = e.ProgressPercentage + "%";
+        }
+
+        
