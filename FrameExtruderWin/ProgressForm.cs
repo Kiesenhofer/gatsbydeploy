@@ -9,4 +9,9 @@ namespace FrameExtruderWin {
         public ProgressForm(string title, DoWorkCallback work, Action<RunWorkerCompletedEventArgs> finish) {
             InitializeComponent();
             Text = title;
-            MainWorker.DoWork += (object sender, DoWorkEventArgs e) => { e.Cancel = !
+            MainWorker.DoWork += (object sender, DoWorkEventArgs e) => { e.Cancel = !work(MainWorker); } ;
+            MainWorker.RunWorkerCompleted += (object sender, RunWorkerCompletedEventArgs e)  => { Close(); finish(e);};
+            MainWorker.RunWorkerAsync();
+        }
+
+        pri
