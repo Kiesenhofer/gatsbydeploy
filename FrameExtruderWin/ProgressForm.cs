@@ -22,4 +22,13 @@ namespace FrameExtruderWin {
         private void ProgressForm_FormClosing(object sender, FormClosingEventArgs e) {
             if(MainWorker.IsBusy) {
                 e.Cancel = true;
-                if (!MainWorker.CancellationPend
+                if (!MainWorker.CancellationPending) {
+                    MainWorker.CancelAsync();
+                    Enabled = false;
+                    Text = "Cancelling...";
+                }
+            }
+
+        }
+    }
+}
