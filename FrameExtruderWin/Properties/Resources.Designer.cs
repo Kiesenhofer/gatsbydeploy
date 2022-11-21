@@ -41,4 +41,11 @@ namespace FrameExtruderWin.Properties {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FrameExtruderWin.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
-    
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resour
