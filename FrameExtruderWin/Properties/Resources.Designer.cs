@@ -75,4 +75,9 @@ namespace FrameExtruderWin.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap drag {
             get {
-                object obj = Resource
+                object obj = ResourceManager.GetObject("drag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+    }
+}
