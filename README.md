@@ -5,4 +5,9 @@ Designed for getting around [edge bleeding issues](https://web.archive.org/web/2
 
 It is written in C# using Microsoft .NET 2.0 and has been designed and tested for use on Windows systems. However for use on other operating systems, my testing on a Debian system shows that using Mono seems to work [quite nicely](https://i.imgur.com/ivHR2Ln.png) besides some minor control size issues that need to be fixed.
 
-![](ht
+![](https://i.imgur.com/5xyw6vc.png)
+
+Here is a screenshot of the program running to show you how it looks.
+
+### Usage:
+Usage is very simple, before selecting an image to use as a "frame sheet" (which is just 
