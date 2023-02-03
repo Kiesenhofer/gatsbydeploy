@@ -12,4 +12,7 @@ Here is a screenshot of the program running to show you how it looks.
 ### Usage:
 Usage is very simple, before selecting an image to use as a "frame sheet" (which is just my term to describe both tilesets and spritesheets), set the extrusion options to what you need them to be. Select the frame sheet by dragging an image file into the drag area or select manually. 
 
-A table of available extrusion options a
+A table of available extrusion options and their function:
+
+| Option                     | Function                                                                                            |    
+| :------------------------- | :------------
