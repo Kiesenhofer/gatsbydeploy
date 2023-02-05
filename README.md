@@ -16,4 +16,6 @@ A table of available extrusion options and their function:
 
 | Option                     | Function                                                                                            |    
 | :------------------------- | :-------------------------------------------------------------------------------------------------- |
-| Frame Width/Height         | The dimensions for a single frame in the original frame sheet.                                 
+| Frame Width/Height         | The dimensions for a single frame in the original frame sheet.                                      |
+| Margin                     | Number of pixels between frames and the edge of the original frame sheet                            |
+| Spacing                    | Number of pixels between neighb
