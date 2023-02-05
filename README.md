@@ -15,4 +15,5 @@ Usage is very simple, before selecting an image to use as a "frame sheet" (which
 A table of available extrusion options and their function:
 
 | Option                     | Function                                                                                            |    
-| :------------------------- | :------------
+| :------------------------- | :-------------------------------------------------------------------------------------------------- |
+| Frame Width/Height         | The dimensions for a single frame in the original frame sheet.                                 
