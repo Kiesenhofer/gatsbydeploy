@@ -18,4 +18,6 @@ A table of available extrusion options and their function:
 | :------------------------- | :-------------------------------------------------------------------------------------------------- |
 | Frame Width/Height         | The dimensions for a single frame in the original frame sheet.                                      |
 | Margin                     | Number of pixels between frames and the edge of the original frame sheet                            |
-| Spacing                    | Number of pixels between neighb
+| Spacing                    | Number of pixels between neighbouring tiles in original frame sheet.                                |
+| Background Color           | Background color to use for extruded sheet, will show under spacing, margin and transparent pixels. |
+| Save Copy Of Original Sheet
