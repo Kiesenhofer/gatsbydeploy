@@ -25,4 +25,6 @@ A table of available extrusion options and their function:
 Because of the extrusion, the margin and spacing will need to be adjusted for everything to look right. If you had no margin and spacing before, margin will be 1px and spacing will be 2px.
 ```javascript
 // for tilesets...
-const tileset = map.addTilesetImage("tileset", "tileset", 16, 16, 1,
+const tileset = map.addTilesetImage("tileset", "tileset", 16, 16, 1, 2); // for an extruded 16x16 tileset
+// for spritesheets
+this.load.spritesheet("enemy", "enemy.png", {frameWidth: 16, frameHeight: 16, margin: 1, spacing: 2}); // for an extruded 16x16 spritesheet
