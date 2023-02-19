@@ -22,4 +22,7 @@ A table of available extrusion options and their function:
 | Background Color           | Background color to use for extruded sheet, will show under spacing, margin and transparent pixels. |
 | Save Copy Of Original Sheet| Save a copy of the original unextruded frame sheet.                                                          |
 ### Extrusion In Phaser:
-Because of the extrusion, the margin and spacing will need to be adjusted for everything to l
+Because of the extrusion, the margin and spacing will need to be adjusted for everything to look right. If you had no margin and spacing before, margin will be 1px and spacing will be 2px.
+```javascript
+// for tilesets...
+const tileset = map.addTilesetImage("tileset", "tileset", 16, 16, 1,
