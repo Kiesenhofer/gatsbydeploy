@@ -20,4 +20,6 @@ A table of available extrusion options and their function:
 | Margin                     | Number of pixels between frames and the edge of the original frame sheet                            |
 | Spacing                    | Number of pixels between neighbouring tiles in original frame sheet.                                |
 | Background Color           | Background color to use for extruded sheet, will show under spacing, margin and transparent pixels. |
-| Save Copy Of Original Sheet
+| Save Copy Of Original Sheet| Save a copy of the original unextruded frame sheet.                                                          |
+### Extrusion In Phaser:
+Because of the extrusion, the margin and spacing will need to be adjusted for everything to l
