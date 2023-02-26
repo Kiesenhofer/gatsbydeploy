@@ -28,3 +28,15 @@ Because of the extrusion, the margin and spacing will need to be adjusted for ev
 const tileset = map.addTilesetImage("tileset", "tileset", 16, 16, 1, 2); // for an extruded 16x16 tileset
 // for spritesheets
 this.load.spritesheet("enemy", "enemy.png", {frameWidth: 16, frameHeight: 16, margin: 1, spacing: 2}); // for an extruded 16x16 spritesheet
+```
+
+### Examples:
+![](https://i.imgur.com/oT24Xhd.png)
+
+**Tileset**:
+
+![](https://i.imgur.com/durgSk3.png)
+
+The results of extruding a single tileset using the default settings. Frame size 16x16 and no margin or spacing.
+
+
